@@ -1,0 +1,32 @@
+body {
+    font-family: -apple-system, 'BlinkMacSystemFont', 'Hiragino Kaku Gothic ProN', 'メイリオ', Sans-Serif;
+}
+
+#title,
+#join {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.gold {
+    background: linear-gradient(180deg, #ecc440 0%, #fffa8a 45%, #FEE9A0 70%, #ddac17 85%, #ffff95 90% 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.silver {
+    background: linear-gradient(0deg, #ededed, #bdbdbd, #ededed);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rasta {
+    background: linear-gradient(90deg, green, yellow, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pink {
+    background: radial-gradient(rgba(223, 159, 247), pink);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

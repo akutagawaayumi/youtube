@@ -1,0 +1,247 @@
+html {
+    font-size: 16px;
+    height: -webkit-fill-available;
+}
+
+@media screen and (max-width: 500px) {
+    html {
+        font-size: 3.5vw;
+    }
+}
+
+body {
+    height: 100dvh;
+    max-height: -webkit-fill-available;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: light) {
+
+    body,
+    select,
+    dialog {
+        background: #fff;
+        color: #000;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+
+    body,
+    select,
+    dialog {
+        background: #000;
+        color: #fff;
+    }
+}
+
+ul li {
+    list-style: inside none;
+}
+
+#nowplaying strong:before {
+    content: "▶️";
+    margin-right: 0.5rem;
+}
+
+body {
+    display: grid;
+    min-height: -webkit-fill-available;
+}
+
+#result input,
+.full #result li,
+.full header button,
+#nowplaying::-webkit-details-marker {
+    display: none;
+}
+
+#join,
+dialog button {
+    font-size: 200%;
+}
+
+#nowplaying strong {
+    font-size: 150%;
+}
+
+h1,
+header button rt,
+#result div button,
+#play ul li {
+    font-size: 123%;
+}
+
+footer button {
+    font-size: 100%;
+}
+
+#result input:checked+label {
+    font-weight: 600;
+    text-decoration: underline solid;
+}
+
+header button,
+header button ruby,
+#title,
+#collaboration {
+    word-break: break-word;
+}
+
+body,
+ul,
+footer button {
+    padding: 0;
+}
+
+h1,
+#play ul li,
+#result div button,
+header,
+footer {
+    padding: 0.5rem;
+}
+
+header button {
+    padding: 1rem 0.5rem 0.5rem;
+}
+
+body,
+h1,
+button,
+ul,
+li,
+.full #player {
+    margin: 0;
+}
+
+#player {
+    margin: 0 0.5rem;
+}
+
+#dialog section {
+    margin: 1.25rem 0 0.5rem;
+}
+
+button,
+select,
+a {
+    appearance: none;
+    background: transparent;
+    color: inherit;
+    font-family: inherit;
+}
+
+select {
+    font-size: inherit;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#player {
+    pointer-events: none;
+    user-select: none;
+}
+
+.full #player {
+    pointer-events: auto;
+    user-select: auto;
+}
+
+select,
+button.button {
+    border: 0.1rem solid;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 0.25rem 1rem;
+    outline: none;
+    text-align: center;
+}
+
+a.button {
+    text-decoration: none;
+}
+
+header,
+footer,
+#nowplaying {
+    display: flex;
+    justify-content: space-between;
+}
+
+header,
+footer {
+    align-items: baseline;
+    gap: 0.5rem;
+}
+
+#nowplaying {
+    vertical-align: top;
+}
+
+header {
+    place-self: start;
+}
+
+footer {
+    place-self: end;
+}
+
+header,
+footer {
+    flex-flow: wrap;
+}
+
+#result div,
+#join {
+    position: sticky;
+    top: 0;
+}
+
+#play ul {
+    position: relative;
+    list-style: inside none;
+}
+
+#result div,
+#dialog button {
+    float: right;
+}
+
+header,
+header button,
+.full #player,
+.full #result div,
+footer {
+    width: 100%;
+}
+
+#dialog {
+    width: 700px;
+    max-width: calc(100% - 2em - 6px);
+    max-height: calc(100% - 2em - 6px);
+}
+
+.full #player {
+    height: 56.25dvw;
+    max-width: 100%;
+    max-height: calc(100dvh - 12.5rem);
+}
+
+#player {
+    width: 52.5vw;
+    height: 30vw;
+    max-width: 750px;
+    max-height: 425px;
+    overflow: auto;
+}

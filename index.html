@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <link rel="icon" href="../log/icon/favicon.jpg">
+    <title>abi | the best youtube videos</title>
+    <meta content="YouTubeに公開されているお気に入りの音楽や動画" name="description">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/index.css">
+
+    <script src="./js/index.js"></script>
+    <script src="./js/playlist.js"></script>
+    <script src="https://apis.google.com/js/client.js?onload=onGoogleLoad"></script>
+</head>
+
+<body>
+    <header>
+        <a class="button" href="https://the-best-items.com/">abi</a>
+        <select name="playlist" id="playlist">
+            <option disabled selected value="">the best youtube videos</option>
+        </select>
+        <button>
+            <ruby>
+                <b id="title"></b>
+                <rt id="collaboration">the best youtube videos</rt>
+            </ruby>
+        </button>
+    </header>
+
+    <main id="play" open>
+        <h1 id="nowplaying">
+            <strong>the best youtube videos</strong>
+            <small></small>
+        </h1>
+        <ul id="result">
+            <div>
+                <button></button><br>
+                <div id="player"></div>
+            </div>
+        </ul>
+    </main>
+
+    <dialog id="dialog">
+        <button class="button" onclick="closeModal()">×</button>
+        <a id="join" target="_blank">共同編集者になる Become a Collaborater</a>
+        <section></section>
+        <br>
+        インスタグラム
+        <a href="https://www.instagram.com/abi_the_best_items/" target="_blank">@abi_the_best_items</a>
+    </dialog>
+
+    <footer>
+        <button type="button" onclick="full()">Fullscreen View</button>
+        <a id="link" target="_blank">Watch a Playlist on YouTube</a>
+    </footer>
+</body>
+
+</html>
