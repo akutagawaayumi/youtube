@@ -32,9 +32,7 @@ function onPlayerStateChange(event) {
 
     // 現在のステータス取得
     var ytStatus = event.target.getPlayerState();
-
-    switch (ytStatus) { // ステータスの判別
-
+    switch (ytStatus) {
         case -1: // 未開始
             nowPlaying.textContent = allVIdeo[ii].dataset.title;
             playingTrack.textContent = Number(ii) + 1 + "/" + totalResults;

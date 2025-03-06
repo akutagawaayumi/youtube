@@ -1,7 +1,10 @@
 {
     "title": "Music selected by customers",
     "id": "PLB_JVs5ZzEKIZh-E5D5fzD1iI3N8_J5yo",
-    "join": "https://www.youtube.com/playlist?list=PLB_JVs5ZzEKIZh-E5D5fzD1iI3N8_J5yo&jct=eYqXAHO6Ra4IeOJWQLRbrcPtGPXpIg",
+    "join": [
+        "abi",
+        "https://www.youtube.com/playlist?list=PLB_JVs5ZzEKIZh-E5D5fzD1iI3N8_J5yo&jct=eYqXAHO6Ra4IeOJWQLRbrcPtGPXpIg"
+    ],
     "lists": [
         {
             "value": "showtime",
@@ -9,7 +12,7 @@
             "id": "PLB_JVs5ZzEKLOv1xbUiJpYsdVH7KTzlJ0",
             "join": null,
             "gradient": "silver",
-            "link": null
+            "link": false
         },
         {
             "value": "pure",
@@ -41,7 +44,7 @@
             "id": "PLB_JVs5ZzEKLQHDRwi1B0bdQDsF5ozDGB",
             "join": null,
             "gradient": "pink",
-            "link": "members"
+            "link": true
         },
         {
             "value": "super-hits",
@@ -55,17 +58,23 @@
             "value": "summer",
             "title": "激アツ夏レゲエ & SUMMER TUNES",
             "id": "PLB_JVs5ZzEKIOJV6Yhtz8XbLMgUaWQcs8",
-            "join": "https://www.youtube.com/playlist?list=PLB_JVs5ZzEKIOJV6Yhtz8XbLMgUaWQcs8&jct=Q0bmxY0Z0WqmTzFSpDCg1AIqqv3wUg",
+            "join": [
+                "zion",
+                "https://www.youtube.com/playlist?list=PLB_JVs5ZzEKIOJV6Yhtz8XbLMgUaWQcs8&jct=Q0bmxY0Z0WqmTzFSpDCg1AIqqv3wUg"
+            ],
             "gradient": "rasta",
-            "link": "members"
+            "link": true
         },
         {
             "value": "winter",
             "title": "おセンチ/セツナ系 WINTER SONGS",
             "id": "PLB_JVs5ZzEKLUSt_s-WKwkZKCCbZz63eH",
-            "join": "https://www.youtube.com/playlist?list=PLB_JVs5ZzEKLUSt_s-WKwkZKCCbZz63eH&jct=TrvMiKJUSCyUSMkO2iRWxg",
-            "gradient": "silver",
-            "link": "members"
+            "join": [
+                "rasta",
+                "https://www.youtube.com/playlist?list=PLB_JVs5ZzEKLUSt_s-WKwkZKCCbZz63eH&jct=TrvMiKJUSCyUSMkO2iRWxg"
+            ],
+            "gradient": "fuyu",
+            "link": true
         },
         {
             "value": "bonobono",
@@ -73,7 +82,7 @@
             "id": "PLCfXDJUeHXyVV0exXqS0BJYK9Gai74sy6",
             "join": null,
             "gradient": null,
-            "link": "members"
+            "link": false
         },
         {
             "value": "cojicoji",
@@ -81,7 +90,7 @@
             "id": "PLwJpwSlrEnWPWBljfQK0akTrbkfr6TK3U",
             "join": null,
             "gradient": null,
-            "link": "members"
+            "link": false
         },
         {
             "value": "moomin",
@@ -89,15 +98,7 @@
             "id": "PLm3O5jO-j0Bop9x8Z_Bu0dYyF2P9FDGwB",
             "join": null,
             "gradient": null,
-            "link": "members"
-        },
-        {
-            "value": "ppsp",
-            "title": "ᴘᴏɴ ᴘᴏɴ ꜱᴜᴘᴇʀ-ᴘᴏɴ",
-            "id": "PLB_JVs5ZzEKLyGIQVViy4KFFoRakoavsS",
-            "join": null,
-            "gradient": null,
-            "link": "members"
+            "link": false
         }
     ],
     "collaborator": [
